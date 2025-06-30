@@ -26,32 +26,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "MyApp",
-    template: "%s | MyApp",
-  },
+  title:"product platform",
   description: "A modern app built with Next.js 15",
   keywords: ["blog", "product", "seang", "Blog", "Product"],
-  authors: [
-    {
-      name: "seang",
-      url: "https://www.freepik.com/free-vector/contact-icon-3d-vector-illustration-blue-button-with-user-profile-symbol-networking-sites-apps-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_51251928.htm#fromView=search&page=1&position=9&uuid=a19fb0e5-a8b8-4534-9bd0-197b6daaed4f&query=user", // Ideally your site URL
-    },
-  ],
   metadataBase: new URL("https://first-nextjs-delta-ashy.vercel.app/"), // 👈 real domain here
   openGraph: {
     title: "MyApp",
     description: "A modern app built with Next.js 15",
     url: "https://www.freepik.com/free-vector/contact-icon-3d-vector-illustration-blue-button-with-user-profile-symbol-networking-sites-apps-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_51251928.htm#fromView=search&page=1&position=9&uuid=a19fb0e5-a8b8-4534-9bd0-197b6daaed4f&query=user",
     siteName: "MyApp",
-    images: [
-      {
-        url: "https://www.freepik.com/free-vector/opening-soon-background-with-typography_2720620.htm#fromView=search&page=1&position=19&uuid=2f2b752d-a672-4d21-ad71-56e9fdb4d840&query=openGraph",
-        width: 1200,
-        height: 630,
-        alt: "MyApp Open Graph Image",
-      },
-    ],
+    images:"https://www.freepik.com/free-vector/opening-soon-background-with-typography_2720620.htm#fromView=search&page=1&position=19&uuid=2f2b752d-a672-4d21-ad71-56e9fdb4d840&query=openGraph",
     locale: "en_US",
     type: "website",
   },
