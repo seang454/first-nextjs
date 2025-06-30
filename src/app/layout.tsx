@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   description: "A modern app built with Next.js 15",
   keywords: ["blog", "product", "seang", "Blog", "Product"],
   openGraph: {
-    title: "MyApp",
+    title: "blog",
     description: "A modern app built with Next.js 15",
     siteName: "MyApp",
     images:"https://www.freepik.com/free-photo/teamwork-making-online-blog_11306776.htm#fromView=search&page=1&position=1&uuid=2bef88ec-6734-49a4-91d8-5a0e56d3ee7e&query=blog",
