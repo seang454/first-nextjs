@@ -38,11 +38,11 @@ export const metadata: Metadata = {
       url: "https://www.freepik.com/free-vector/contact-icon-3d-vector-illustration-blue-button-with-user-profile-symbol-networking-sites-apps-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_51251928.htm#fromView=search&page=1&position=9&uuid=a19fb0e5-a8b8-4534-9bd0-197b6daaed4f&query=user", // Ideally your site URL
     },
   ],
-  metadataBase: new URL("https://www.freepik.com/free-vector/contact-icon-3d-vector-illustration-blue-button-with-user-profile-symbol-networking-sites-apps-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_51251928.htm#fromView=search&page=1&position=9&uuid=a19fb0e5-a8b8-4534-9bd0-197b6daaed4f&query=user"), // 👈 real domain here
+  metadataBase: new URL("https://first-nextjs-delta-ashy.vercel.app/"), // 👈 real domain here
   openGraph: {
     title: "MyApp",
     description: "A modern app built with Next.js 15",
-    url: "https://first-nextjs-delta-ashy.vercel.app/",
+    url: "https://www.freepik.com/free-vector/contact-icon-3d-vector-illustration-blue-button-with-user-profile-symbol-networking-sites-apps-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_51251928.htm#fromView=search&page=1&position=9&uuid=a19fb0e5-a8b8-4534-9bd0-197b6daaed4f&query=user",
     siteName: "MyApp",
     images: [
       {
