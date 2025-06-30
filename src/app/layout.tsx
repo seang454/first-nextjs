@@ -1,11 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Navigation } from "@/components/navigation";
+import { PostProvider } from "@/context/PostContext";
+// import { QueryClientProvider } from "@tanstack/react-query";
+// import localFont from "next/font/local";
+import { Ubuntu_Mono } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const ubuntu = Ubuntu_Mono({
+  variable: "--font-ubuntu-mono",
   subsets: ["latin"],
-});
+  weight: ["400", "700"],
+})
+
+
+
+// const geistSans = Geist({
+//   variable: "--font-ubuntu-mono",
+//   subsets: ["latin"],
+// });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -25,9 +38,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${ubuntu.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Navigation />
+        {/* <QueryClientProvider>{children}</QueryClientProvider> */}
+        <PostProvider>{children}</PostProvider>
       </body>
     </html>
   );
